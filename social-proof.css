@@ -1,0 +1,247 @@
+@media screen and (min-width: 1200px) {
+
+body {
+    background-color: rgba(255, 192, 203, 0.308);
+    padding: 1rem 3rem;
+    padding-left: 4rem;
+}
+.side1 {
+    display: inline-block;
+}
+h1 {
+    color: rgb(66, 4, 66);
+    width: 25rem;
+    float: left;
+    clear: right;
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+p {
+   color: rgba(54, 4, 54, 0.281);
+   float: left;
+   width: 25rem;
+   font-weight: 500;
+   font-size: 15px;
+   font-family: 'Noto Sans', sans-serif;
+   margin-top: -1.5rem;
+}
+.side2 {
+    float: right;
+}
+.star1 {
+    background-color: rgba(240, 203, 240, 0.432);
+    width: 15rem;
+    padding: .5rem 3rem .5rem 1.5rem;
+    position: relative;
+    top: 5rem;
+    right: 10rem;
+    border-radius: 5px;
+}
+[alt ~="stars"] {
+    width: .7rem;
+}
+span {
+    color: rgb(66, 4, 66);
+    font-weight: bold;
+    font-size: 11px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: .4rem;
+}
+.star2 {
+    background-color: rgba(240, 203, 240, 0.432);
+    width: 15.5rem;
+    padding: .5rem 3rem .5rem 1.5rem;
+    position: relative;
+    top: 5rem;
+    right: 9rem;
+    border-radius: 5px;
+}
+.star3 {
+    background-color: rgba(240, 203, 240, 0.432);
+    width: 15.5rem;
+    padding: .5rem 3rem .5rem 1.5rem;
+    position: relative;
+    top: 5rem;
+    right: 7.5rem;
+    border-radius: 5px;
+}
+.side3 {
+    display: flex;
+    margin-top: 2rem;
+}
+.box1 {
+    background-color: rgb(63, 6, 63);
+    width: 20rem;
+    height: 13rem;
+    border-radius: 10px;
+}
+[alt ~="buju"] {
+    border-radius: 2rem;
+    width: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+h6 {
+    display: inline-block;
+    color: white;
+    width: 8rem;
+    font-size: 15px;
+    margin-left: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+b {
+    color: rgb(182, 31, 182);
+}
+[href ~="ponx"] {
+    color: white;
+    margin-left: .7rem;
+    width: 19rem;
+    font-size: 12px;
+    margin-top: -.9rem;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+}
+.box2 {
+    background-color: rgb(63, 6, 63);
+    width: 20rem;
+    height: 13rem;
+    border-radius: 10px;
+    margin-left: 2rem;
+    transform: translateY(1rem);
+}
+.box3 {
+    background-color: rgb(63, 6, 63);
+    width: 20rem;
+    height: 13rem;
+    border-radius: 10px;
+    margin-left: 2rem;
+    transform: translateY(2rem);
+}
+[class ~="attribution"] {
+    margin-top: 2rem;
+    left: 5rem;
+}
+}
+@media screen and (max-width: 850px) {
+    body {
+        background-color: rgba(255, 192, 203, 0.308);
+    }
+    .side1 {
+        display: block;
+        margin: auto;
+    }
+    h1 {
+        margin: auto; 
+        text-align: center;
+        color: rgb(66, 4, 66);
+        width: 17rem;
+        font-weight: bolder;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    p {
+        margin: auto;
+        text-align: center;
+        font-family: 'Noto Sans', sans-serif;
+        color: rgba(54, 4, 54, 0.281);
+        width: 20rem;
+    }
+    .side2 {
+        display: block;
+        text-align: center;
+        margin-top: 3.5rem;
+    }
+    .star1 {
+        background-color: rgba(240, 203, 240, 0.432);
+        width: 20rem;
+        height: 3rem;
+        padding: 1rem 3rem .5rem 1.5rem;
+        display: block;
+        margin: auto;
+        border-radius: 8px;
+    }
+    [alt ~="stars"] {
+        width: .7rem;
+    }
+    span {
+        color: rgb(66, 4, 66);
+        font-weight: bold;
+        font-size: 11px;
+        font-family: 'Noto Sans', sans-serif;
+        margin-left: .4rem;
+        display: block;
+        margin: auto;
+    }
+    .star2 {
+        background-color: rgba(240, 203, 240, 0.432);
+        width: 20rem;
+        height: 3rem;
+        padding: 1rem 3rem .5rem 1.5rem;
+        display: block;
+        margin: auto;
+        border-radius: 8px;
+    }
+    .star3 {
+        background-color: rgba(240, 203, 240, 0.432);
+        width: 20rem;
+        height: 3rem;
+        padding: 1rem 3rem .5rem 1.5rem;
+        display: block;
+        margin: auto;
+        border-radius: 8px;
+    }
+    .side3 {
+        display: block;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .box1 {
+        background-color: rgb(63, 6, 63);
+        width: 20rem;
+        height: 15rem;
+        border-radius: 10px;
+        margin: auto;
+    }
+    [alt ~="buju"] {
+        border-radius: 2rem;
+        width: 2.5rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    h6 {
+        display: inline-block;
+        color: white;
+        width: 8rem;
+        font-size: 15px;
+        margin-left: 1rem;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    b {
+        color: rgb(182, 31, 182);
+    }
+    [href ~="ponx"] {
+        color: white;
+        margin-left: 1.5rem;
+        width: 17rem;
+        font-size: 15px;
+        margin-top: -.5rem;
+        font-weight: 200;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .box2 {
+        background-color: rgb(63, 6, 63);
+        width: 20rem;
+        height: 13rem;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .box3 {
+        margin: auto;
+        margin-top: 1rem;
+        background-color: rgb(63, 6, 63);
+        width: 20rem;
+        height: 13rem;
+        border-radius: 10px;
+    }
+}
